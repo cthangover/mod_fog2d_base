@@ -1,0 +1,20 @@
+{
+  "Kind": "fog2d_profile",
+  "Items": [
+    {
+      "Id": "fog_runtime",
+      "Radius": 2,
+      "RememberedBrightness": 0.25,
+      "Occluders": [
+        {
+          "Object": "fog2d_probe/door",
+          "Mode": "WhenSolid"
+        },
+        {
+          "Object": "fog2d_probe/npc",
+          "Mode": "Transparent"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "fog2d_base",
+  "name": "2D Visibility",
+  "version": "0.1.0",
+  "author": "ct",
+  "description": "Wall-aware field of view and remembered exploration for tile worlds.",
+  "categories": [
+    "engine",
+    "library"
+  ],
+  "depends": [
+    "rpg>=0.1.0",
+    "exploration_base>=0.1.0"
+  ],
+  "sources": [
+    "src/**/*.cs"
+  ],
+  "test_sources": [
+    "tests/*.cs"
+  ],
+  "test_suites": [
+    {
+      "id": "pixels",
+      "activate": [
+        "--itest=fog2d_pixels"
+      ]
+    }
+  ]
+}
